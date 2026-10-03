@@ -20,9 +20,13 @@
 проект/
 ├── README.md
 ├── .gitignore
-└── docs/
-    ├── passport.md
-    └── gantt.xlsx
+├── docs/
+│   ├── passport.md
+│   ├── gantt.xlsx
+│   ├── Глоссарий.docx
+│   ├── Таблица_анализа_предметной_области.docx
+│   ├── модель_предметной_области.png
+│   └── diagrams/        (блок-схемы D01–D12, PNG)
 ├── db/
 └── src/
 ```
