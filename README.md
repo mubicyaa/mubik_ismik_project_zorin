@@ -23,6 +23,7 @@
 ├── docs/
 │   ├── passport.md
 │   ├── gantt.xlsx
+│   ├── erd.pdf
 │   ├── Глоссарий.docx
 │   ├── Таблица_анализа_предметной_области.docx
 │   ├── модель_предметной_области.png
@@ -30,10 +31,16 @@
 │   ├── Таблица_сценария_оформления_заказа.docx
 │   ├── диаграмма_вариантов_использования.png
 │   ├── процесс_оформления_заказа.png
-│   └── diagrams/        (блок-схемы D01–D12, PNG)
+│   └── diagrams/        (блок-схемы D01–D12, PNG; erd.png - ER-диаграмма)
 ├── db/
-│   └── import/          (10 CSV-файлов данных БД)
+│   ├── import/          (10 CSV-файлов данных БД)
+│   ├── create_shop_db.sql  (создание БД shoe_shop и загрузка данных)
+│   └── shoe_shop.mwb    (модель MySQL Workbench)
 └── src/
 ```
 
 Отчёт (Отчёт.docx) ведётся отдельным Word-файлом и не хранится в репозитории.
+
+## База данных
+
+Схема `shoe_shop` (MySQL 8, InnoDB, utf8mb4): 10 таблиц и 9 внешних ключей. Создать базу можно скриптом `db/create_shop_db.sql` (MySQL Workbench: File -> Open SQL Script -> Execute). ER-диаграмма: `docs/diagrams/erd.png`, `docs/erd.pdf`.
