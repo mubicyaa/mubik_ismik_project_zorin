@@ -34,7 +34,9 @@
 │   └── diagrams/        (блок-схемы D01–D12, PNG; erd.png - ER-диаграмма)
 ├── db/
 │   ├── import/          (10 CSV-файлов данных БД)
-│   ├── create_shop_db.sql  (создание БД shoe_shop и загрузка данных)
+│   ├── create_v1.sql    (структура БД shoe_shop: таблицы и связи)
+│   ├── data.sql         (данные всех 10 таблиц, INSERT)
+│   ├── queries.sql      (SQL-запросы приложения)
 │   └── shoe_shop.mwb    (модель MySQL Workbench)
 └── src/
 ```
