@@ -39,8 +39,4 @@
 └── src/
 ```
 
-Отчёт (Отчёт.docx) ведётся отдельным Word-файлом и не хранится в репозитории.
-
-## База данных
-
-Схема `shoe_shop` (MySQL 8, InnoDB, utf8mb4): 10 таблиц и 9 внешних ключей. Создать базу можно скриптом `db/create_shop_db.sql` (MySQL Workbench: File -> Open SQL Script -> Execute). ER-диаграмма: `docs/diagrams/erd.png`, `docs/erd.pdf`.
+Отчёт (Отчёт.docx) ведётся отдельным Word-файлом и хранится в репозитории.
